@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     public static event Action<GameState> OnGameStateChanged;
     public static int totalMoney = 10000;
     public static int currentBet = 0;
-    public static int currentMultiplier = 1;
 
     [SerializeField] private List<Card> deckOfCards = new List<Card>();
     public List<Card> DeckOfCards { get => deckOfCards; }
